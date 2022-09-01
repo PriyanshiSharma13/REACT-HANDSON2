@@ -22,7 +22,7 @@ const MyForm = () => {
     const submitBtn = (e) => {
         e.preventDefault();
         setdata((store) => {
-            return [...store,["Name : ",data1, " | ", "Department : ",data2, " | ", "Rating : ",data3, " | "]]
+            return [...store,["Name : ",data1, " | ", "Department : ",data2, " | ", "Rating : ",data3]]
         })
         setdata1('');
         setdata2('');
