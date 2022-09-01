@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=El+Messiri:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(#dfc5beb6 ,#f1f1f1bb,#cf90a68f);
+    background-attachment: fixed;
+}
+.formTitle{
+    font-family: 'El Messiri', sans-serif;
+    font-size: 3.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    color: #500252;
+    text-shadow: 1px 1px 3px rgba(83, 80, 80, 0.856);   
+    letter-spacing: 1px;
+}
+.formTable{
+    width: 40%;
+    height: 40vh;
+    margin: 50px auto;
+    font-family: 'Courgette', cursive;
+}
+.box1{
+    width: 80%;
+    height: 60px;
+    margin: 20px 56px;
+    padding: 10px;
+}
+.box2{
+    width: 80%;
+    height: 60px;
+    margin: 20px 56px;
+    padding: 10px;
+}
+.box3{
+    width: 80%;
+    height: 60px;
+    margin: 20px 56px;
+    padding: 10px;
+}
+.submitBtn{
+    width: 28%;
+    height: 40px;
+    box-sizing: border-box;
+    border: 3px solid #F55353;
+    border-radius: 30px;
+    margin: 8% 35%;
+    background-color: #810955;
+    color: #FFE898;
+    font-family: 'Courgette', cursive;
+    font-size: 1.8rem;
+}
+.submitBtn:hover{
+    border: 3px solid #2FA4FF;
+    background-color: #0E185F;
+    color: greenyellow;
+}
+.inputBox{
+    width: 60%;
+    height: 40px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    font-family: 'Courgette', cursive;
+    font-size: 1.6rem;
+    text-align: center;
+}
+.labell{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #0F3460;
+}
+.nameInput{
+    margin-left: 20.5%;
+}
+.departmentInput{
+    margin-left: 6.5%;
+}
+.ratingInput{
+    margin-left: 18.8%;
+}
+.fetchData{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 85%;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: rgba(106, 105, 105, 0.678);
+}
+.storedData{
+    width: 45%;
+    height: 50px;
+    box-shadow: 2px 2px 12px #3B0000;
+    border-radius: 20px;
+    background-image: linear-gradient(#fff56dec,#bcf5a7d4,#f7f2f6df);
+    margin: 20px 0 30px 0;
+    padding: 10px 10px;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0602c5eb;
+    text-align: center;
+  }
